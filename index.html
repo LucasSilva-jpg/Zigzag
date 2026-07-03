@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Project</title>
+</head>
+
+<body>
+    <div id="loading-screen">
+        <p id="loading-text">LOADING</p>
+        <div id="loading-bar-track"><div id="loading-bar-fill"></div></div>
+    </div>
+    <div id="scene">
+        <div id="corridor">
+            <canvas id="canvas-corridor" width="800" height="600"></canvas>
+        </div>
+        <div id="door">
+            <div id="door-body">
+                <div id="handle"></div>
+            </div>
+        </div>
+        <div id="typewriter"></div>
+    </div>
+    <canvas id="static-canvas"></canvas>
+    <img id="jumpscare-img" src="assets/jumpscare.jpg">
+
+    <p id="instruction">Click the door to enter</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
